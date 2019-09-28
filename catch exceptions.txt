@@ -1,0 +1,8 @@
+try {
+}
+catch (DmlException dee) {
+    System.debug('DmlException Message' + dee.getLineNumber() + 'DmlException Message = ' +dee.getMessage());
+}
+catch (Exception ee) {
+    System.debug('Exception Message' + ee.getLineNumber() + 'Exception Message = ' + ee.getMessage());
+}
